@@ -8,6 +8,10 @@
             margin: 0;
             padding: 0;
         }
+		p {
+			margin: 0;
+			padding: 0;
+		}
         #header {
             background-color: #f1f1f1;
             border-bottom: 1px solid #ddd;
@@ -26,11 +30,11 @@
 <body>
 
 <div id="header">
-    lloydfolks.com is coming soon!
+	<p>lloydfolks.com is coming soon!</p>
 </div>
 
 <div id="content">
-    Check back later to see what will be here!
+	<p>Check back later to see what will be here!</p>
 </div>
 
 </body>
