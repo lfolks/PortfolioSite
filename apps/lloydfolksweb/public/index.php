@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Coming Soon!</title>
+    <title>lloydfolks.com - Coming Soon!</title>
     <meta charset="utf-8"/>
     <style>
         body {
