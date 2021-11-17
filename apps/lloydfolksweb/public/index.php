@@ -3,7 +3,13 @@
 <head>
     <title>lloydfolks.com - Coming Soon!</title>
     <meta charset="utf-8"/>
-    <style>
+	<link href="bin/assets/css/main.css" rel="stylesheet" type="text/css">
+</head>
+</html>
+<br>
+<html lang="en">
+<head>
+<style>
         body {
             margin: 0;
             padding: 0;
