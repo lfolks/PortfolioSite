@@ -1,3 +1,8 @@
+<?php
+
+require_once("../ldf_data/config.php");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -8,11 +13,15 @@
 	<body>
 
 		<header>
-			<div class="headerContent">
-				<img class="landingLogo" src="bin/assets/img/social.png" alt="LloydFolks.com" title="LloydFolks.com">
-				<span class="headerTitle">Lloyd Folks Jr.</span>
-			</div>
+			<img class="landingLogo" src="bin/assets/img/profilephoto.png" alt="LloydFolks.com" title="LloydFolks.com">
+			<h1>Welcome to LloydFolks.com</h1>
 		</header>
+		<nav>
+			<a href="#">Link</a>
+			<a href="#">Link</a>
+			<a href="#">Link</a>
+			<a href="#">Link</a>
+		</nav>
 		<main>
 			<p>Check back later to see what will be here!</p>
 		</main>
