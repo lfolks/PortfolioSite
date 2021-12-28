@@ -1,6 +1,6 @@
 <?php
 // Import and require the config file from the data folder
-require_once("../ldf_data/config.php");
+require_once("../data/config.php");
 
 // Import and require the header file from the assets/php folder
 require_once("bin/assets/php/pagefiles/header.php");
