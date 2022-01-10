@@ -9,6 +9,7 @@ html, body {
 /* Style the body */
 body {
 	font-family: Arial;
+	font-size: 20px;
 	display: flex;
 	flex-direction: column;
 }
