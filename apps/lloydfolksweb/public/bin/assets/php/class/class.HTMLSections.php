@@ -27,8 +27,9 @@
 			TODO: Get a picture that will be good for the page! :)
 			<img class=\"landingLogo\" src=" . $this->wwwroot . "\"bin/assets/img/profilephoto.png\" alt=\"LloydFolks.com\" title=\"LloydFolks.com\">
 			-->
-			<h1>Welcome to LloydFolks.com</h1>
+			<h1>Journey into Code</h1>
 		</header>
+		<!-- Under Development
 		<nav>
 			<a href=\"" . $this->wwwroot . "\">Home</a>
 			<a href=\"" . $this->wwwroot . "/#\">Resume</a>
@@ -36,6 +37,7 @@
 			<a href=\"" . $this->wwwroot . "/#\">About Me</a>
 			<a href=\"" . $this->wwwroot . "/#\">Contact Me</a>
 		</nav>
+		--!>
 <!-- End Header -->";
 			
         }
