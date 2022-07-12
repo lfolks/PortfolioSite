@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 html, body {
 	margin: 0;
@@ -24,119 +24,43 @@ header {
 }
 
 /* Style the top navigation bar */
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
+nav {
+  display: flex;
+  background-color: #333;
 }
 
-nav ul li {
-	float: left;
+/* Style the navigation bar links */
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
-nav ul li a {
-
-display: block;
-
-color: white;
-
-text-align: center;
-
-padding: 14px 16px;
-
-text-decoration: none;
-
-}
-
-nav ul li a:hover:not(.active) {
-	background-color: #111;
-}
-
-nav ul li a.active {
-	background-color: #4CAF50;
-}
-
-nav ul li.right {
-	float: right;
+/* Change color on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 /* Column container */
 .row {  
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-	flex: 30%;
-	padding: 20px;
-}
-
-.form {
-	width: 500px;
-	
-	margin: 0 auto;
-	padding: 10px 30px;
-	border: 3px solid #000000;
-	border-radius: 30px;
-}
-
-.formControl {
-	margin: 10px 0;
-}
-
-.formControl:first-of-type {
-	margin: 0 0 10px;
-}
-
-.formControl:last-of-type {
-	margin: 10px 0 0;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=text], select, textarea {
-	width: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 6px;
-	resize: vertical;
-}
-
-input[type=email] {
-	width: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 6px;
-	resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
 }
 
 /* Main column */
-.main {
-	flex: 70%;
-	background-color: white;
-	padding: 20px;
+main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
 }
 
 /* Footer */
@@ -149,43 +73,22 @@ footer {
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1080px) {
-	.form {
-		width: 90%;
-	}
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-	.row, .navbar {
-		flex-direction: column;
-	}
+  .row, .navbar {   
+    flex-direction: column;
+  }
+	nav a{
+		margin: 0 auto;
 		
-	.form {
-		width: 100%;
 	}
-	
-	nav ul li.right, nav ul li {
-		float: none;
-	}
-
-	
 }
-
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 350px) {
-	.row, .navbar {
-		flex-direction: column;
-	}
-	
-	.form {
-		width: 100%;
-		padding: 5px 10px;
-		border: none;
-	}
-	
-	nav ul li.right, nav ul li {
-		float: none;
-	}
+  .row, .navbar {   
+    flex-direction: column;
+  }
+	nav a{
+		display: block;
 		
+	}
 }
