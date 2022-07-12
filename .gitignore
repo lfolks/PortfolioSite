@@ -5,4 +5,5 @@ _notes
 config.php
 test
 wp
-*.jar
+res
+dev.*
