@@ -4,3 +4,5 @@ _notes
 .htaccess
 config.php
 test
+wp
+*.jar

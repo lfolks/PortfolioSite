@@ -27,34 +27,20 @@
 			TODO: Get a picture that will be good for the page! :)
 			<img class=\"landingLogo\" src=" . $this->wwwroot . "\"bin/assets/img/profilephoto.png\" alt=\"LloydFolks.com\" title=\"LloydFolks.com\">
 			-->
-			<h1>Welcome to LloydFolks.com</h1>
+			<h1>Journey into Code</h1>
 		</header>
-		
+		<!-- Under Development
 		<nav>
-			<ul>
-				<li><a href=\"" . $this->wwwroot . "\">Home</a></li>
-				<li><a href=\"" . $this->wwwroot . "/page/resume\">Resume</a></li>
-				<li><a href=\"" . $this->wwwroot . "/page/portfolio\">Portfolio</a></li>
-				<li><a href=\"" . $this->wwwroot . "/page/about\">About Me</a></li>
-				<li><a href=\"" . $this->wwwroot . "/page/contact\">Contact Me</a></li>
-			</ul>
+			<a href=\"" . $this->wwwroot . "\">Home</a>
+			<a href=\"" . $this->wwwroot . "/#\">Resume</a>
+			<a href=\"" . $this->wwwroot . "/#\">Portfolio</a>
+			<a href=\"" . $this->wwwroot . "/#\">About Me</a>
+			<a href=\"" . $this->wwwroot . "/#\">Contact Me</a>
 		</nav>
-		
+		--!>
 <!-- End Header -->";
 			
         }
-		
-		function Body(){
-			
-			echo "<!-- Begin Body -->
-		<div class=\"main\">
-			<div class=\"row\">
-				<p>Test</p>
-			</div>
-		</div>
-		<!-- End Body -->";
-			
-		}
         
         function Footer(){
 			
@@ -68,6 +54,12 @@
 <!-- End Footer -->";
 			
         }
+		
+		function Body(){
+			
+			echo "";
+			
+		}
         
     }
 
