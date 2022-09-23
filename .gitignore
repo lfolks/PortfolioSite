@@ -1,8 +1,10 @@
 # PortfolioSite Ignore File
 
 _notes
+__*
 .htaccess
 config.php
 test
 wp
-*.jar
+res
+dev.*
