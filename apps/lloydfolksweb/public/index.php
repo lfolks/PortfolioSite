@@ -16,7 +16,7 @@ $HTML->Header();
 
 ?>
 
-<main class="flex-shrink-0">
+<main>
 	<div class="container">
 		<div class="row">
 			<h1 class="mt-5">Welcome to LloydFolks.com</h1>
