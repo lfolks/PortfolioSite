@@ -6,6 +6,7 @@ $stime = microtime(true);
  * Current: Post error using exit to stop the program.
  * Future: Redirect to setup process.
  */
+
 if(file_exists("../data/config.php")){
 	require("../data/config.php");
 }else{
@@ -16,7 +17,7 @@ $HTML->Header();
 
 ?>
 
-<main class="flex-shrink-0">
+<main>
 	<div class="container">
 		<div class="row">
 			<h1 class="mt-5">Welcome to LloydFolks.com</h1>
