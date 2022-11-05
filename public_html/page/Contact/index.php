@@ -18,16 +18,19 @@ $HTML->Header();
 
 <main class="flex-shrink-0">
 	<div class="container">
-		<div class="row">
-			<h1 class="mt-5">Contact</h1>
-			<p class="lead">Reach out to me with your questions or comments!</p>
-		</div>
+		<h1 class="mt-5">Contact</h1>
+		<p class="lead">Reach out to me with your questions or comments!</p>
 		<hr>
-		<div class="row">
-			<h4>Well, it is still a work in progress...</h4>
-			<p>In the meantime, please feel free to email me at <a href="mailto:lloydfolks@lloydfolks.com">lloydfolks@lloydfolks.com</a>.</p>
-		</div>
+		<h4>Well, it is still a work in progress...</h4>
+		<p>In the meantime, please feel free to email me at <a href="mailto:lloyd@lloydfolks.com">lloyd@lloydfolks.com</a>.</p>
 	</div>
+	
+	<div class="container">
+		<a href="https://www.linkedin.com/in/lloyd-folks" rel="external nofollow"><button type="button" class="btn btn-primary btn-linkedin"><i class='fa-brands fa-linkedin'></i></button></a>
+		<a href="https://github.com/lfolks" rel="external nofollow"><button type="button" class="btn btn-primary btn-github"><i class='fa-brands fa-github'></i></button></a>
+		<button type="button" class="btn btn-primary btn-bitbucket"><i class="fa-brands fa-bitbucket"></i></button>
+	</div>
+	
 </main>
 
 <?php
