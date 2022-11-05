@@ -6,6 +6,7 @@ $stime = microtime(true);
  * Current: Post error using exit to stop the program.
  * Future: Redirect to setup process.
  */
+
 if(file_exists("../data/config.php")){
 	require("../data/config.php");
 }else{
