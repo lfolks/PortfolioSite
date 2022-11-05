@@ -18,15 +18,11 @@ $HTML->Header();
 
 <main class="flex-shrink-0">
 	<div class="container">
-		<div class="row">
-			<h1 class="mt-5">About</h1>
-			<p class="lead">Allow me to introduce...well...myself!</p>
-		</div>
+		<h1 class="mt-5">About</h1>
+		<p class="lead">Allow me to introduce...well...myself!</p>
 		<hr>
-		<div class="row">
-			<h4>Well, it is still a work in progress...</h4>
-			<p>This may be the hardest page I do...</p>
-		</div>
+		<h4>Well, it is still a work in progress...</h4>
+		<p>This may be the hardest page I do...</p>
 	</div>
 </main>
 
