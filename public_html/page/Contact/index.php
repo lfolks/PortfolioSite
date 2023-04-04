@@ -14,6 +14,31 @@ if(file_exists("../../../data/config.php")){
 
 $HTML->Header();
 
+/*
+ * Contact Form using PHPMailer with Google Recaptcha
+ * Includes server and client side validation.
+ */
+
+// Include PHPMailer
+require_once($data . "res/core/php/mail/Exception.php");
+require_once($data . "res/core/php/mail/PHPMailer.php");
+require_once($data . "res/core/php/mail/SMTP.php");
+	
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+
+$formstate = "";
+
+//Start form processing
+if(isset($_POST["ContactForm"])){
+	
+}
+
+$form = "
+	
+";
+
 ?>
 
 <main class="flex-shrink-0">
@@ -21,16 +46,10 @@ $HTML->Header();
 		<h1 class="mt-5">Contact</h1>
 		<p class="lead">Reach out to me with your questions or comments!</p>
 		<hr>
-		<h4>Well, it is still a work in progress...</h4>
-		<p>In the meantime, please feel free to email me at <a href="mailto:lloyd@lloydfolks.com">lloyd@lloydfolks.com</a>.</p>
+		<?php
+			
+		?>				
 	</div>
-	
-	<div class="container">
-		<a href="https://www.linkedin.com/in/lloyd-folks" rel="external nofollow"><button type="button" class="btn btn-primary btn-linkedin"><i class='fa-brands fa-linkedin'></i></button></a>
-		<a href="https://github.com/lfolks" rel="external nofollow"><button type="button" class="btn btn-primary btn-github"><i class='fa-brands fa-github'></i></button></a>
-		<button type="button" class="btn btn-primary btn-bitbucket"><i class="fa-brands fa-bitbucket"></i></button>
-	</div>
-	
 </main>
 
 <?php

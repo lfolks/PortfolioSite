@@ -74,6 +74,11 @@
 			echo "</div>
 	<!-- Begin Footer -->
 	<footer class=\"py-3 bg-light\">
+		<div class=\"container pb-4\">
+			<a href=\"https://www.linkedin.com/in/lloyd-folks\" rel=\"external nofollow\"><button type=\"button\" class=\"btn btn-primary btn-linkedin\"><i class='fa-brands fa-linkedin'></i></button></a>
+			<a href=\"https://github.com/lfolks\" rel=\"external nofollow\"><button type=\"button\" class=\"btn btn-primary btn-github\"><i class='fa-brands fa-github'></i></button></a>
+			<a href=\"\" rel=\"external nofollow\"><button type=\"button\" class=\"btn btn-primary btn-bitbucket\"><i class=\"fa-brands fa-bitbucket\"></i></button></a>
+		</div>
 		<div class=\"container\">
 			<p class=\"text-muted\">&copy; " . date("Y") . " &bull; Lloyd Folks.</p>
 		</div>
